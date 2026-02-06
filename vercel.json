@@ -2,16 +2,14 @@
   "name": "network-scanner",
   "version": 2,
   "buildCommand": "pip install -r requirements.txt",
-  "env": [
-    {
-      "key": "SUPABASE_URL",
+  "env": {
+    "SUPABASE_URL": {
       "description": "Supabase project URL (optional)"
     },
-    {
-      "key": "SUPABASE_KEY",
+    "SUPABASE_KEY": {
       "description": "Supabase API key (optional)"
     }
-  ],
+  },
   "routes": [
     {
       "src": "/api/scan",
@@ -34,4 +32,3 @@
     }
   }
 }
-
