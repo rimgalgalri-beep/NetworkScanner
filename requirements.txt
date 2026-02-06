@@ -1,0 +1,8 @@
+# Network Scanner Requirements
+
+# Core dependencies
+requests>=2.32.0
+
+# Optional: Supabase support for PostgreSQL backend (install if using Supabase)
+# supabase>=2.1.0
+
