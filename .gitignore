@@ -1,34 +1,5 @@
-# Python
+.venv/
 __pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-.venv
-pip-log.txt
-pip-delete-this-directory.txt
-
-# IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-
-# OS
+*.pyc
+*.db
 .DS_Store
-Thumbs.db
-
-# Project specific
-tinklo_vardas_irenginiai_data.db
-.env
-.env.local
-.env.*.local
-
-# Vercel
-.vercel/
-out/
-dist/
